@@ -23,7 +23,7 @@ View complete training metrics on [Weights & Biases](https://wandb.ai):
 
 ---
 
-## Demo Examples
+## Demo Examples ([HuggingFace Space](https://huggingface.co/spaces/MargiPandya/blip2-scene-captioning))
 
 ### Example 1: 
 **Input Image**: 
