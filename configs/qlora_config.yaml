@@ -1,0 +1,28 @@
+model_config:
+  name: "Salesforce/blip2-opt-2.7b"
+  device_map: "auto"
+  trust_remote_code: true
+  low_cpu_mem_usage: true
+
+processor_config:
+  name: "Salesforce/blip2-opt-2.7b"
+
+bnb_config:
+  load_in_4bit: true
+  bnb_4bit_use_double_quant: true
+  bnb_4bit_quant_type: "nf4"
+  bnb_4bit_compute_dtype: "float16"
+  llm_int8_enable_fp32_cpu_offload: true
+
+qformer_target_modules:
+  - "query"
+  - "key"
+  - "value"
+  - "dense"
+
+lora_config:
+  r: 4
+  lora_alpha: 1
+  lora_dropout: 0.05
+  bias: "none"
+  target_modules: ${qformer_target_modules}
