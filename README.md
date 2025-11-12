@@ -124,15 +124,15 @@ The `bdd100k_data_pipeline.py` converts raw BDD100K JSON labels into semantic ca
 
 3. **Generates Natural Language**
    ```
-   It is a evening scene in clear weather on a highway road. The traffic light is red. 
-   There is one car. There is one truncated pedestrian.
+It is a **daytime** scene in **overcast** weather on a **city street** road. Key visible objects are: The traffic light is **green**. There are **3 cars**. There are **2 drivable areas**. There are **15 lanes**. There are **14 partially occluded cars**. There is one **partially occluded motor**. There is one **partially occluded rider**. There is one **partially occluded traffic sign**. There are **5 traffic signs**. There are **2 truncated cars**.
+
    ```
 
 ### Output CSV Format
 ```csv
 name,raw_caption
-000123.jpg,"It is a evening scene in clear weather on a highway road. The traffic light is red. There is one car. There is one truncated pedestrian."
-000124.jpg,"It is a morning scene in rainy weather on a city street road. There are 2 cars. There are 3 pedestrians."
+000123.jpg,"It is a **daytime** scene in **overcast** weather on a **city street** road. Key visible objects are: The traffic light is **green**. There are **3 cars**. There are **2 drivable areas**. There are **15 lanes**. There are **14 partially occluded cars**. There is one **partially occluded motor**. There is one **partially occluded rider**. There is one **partially occluded traffic sign**. There are **5 traffic signs**. There are **2 truncated cars**."
+000124.jpg,"It is a **night** scene in **clear** weather on a **highway** road. Key visible objects are: The traffic light is **green**. There are **2 cars**. There are **2 drivable areas**. There are **11 lanes**. There is one **traffic sign**."
 ```
 
 ---
