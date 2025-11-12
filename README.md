@@ -123,10 +123,10 @@ The `bdd100k_data_pipeline.py` converts raw BDD100K JSON labels into semantic ca
    - Prioritizes traffic light status (red > yellow > green)
 
 3. **Generates Natural Language**
-   ```
-It is a **daytime** scene in **overcast** weather on a **city street** road. Key visible objects are: The traffic light is **green**. There are **3 cars**. There are **2 drivable areas**. There are **15 lanes**. There are **14 partially occluded cars**. There is one **partially occluded motor**. There is one **partially occluded rider**. There is one **partially occluded traffic sign**. There are **5 traffic signs**. There are **2 truncated cars**.
+   
+      It is a **daytime** scene in **overcast** weather on a **city street** road. Key visible objects are: The traffic light is **green**. There are **3 cars**. There are **2 drivable areas**. There are **15 lanes**. There are **14 partially occluded cars**. There is one **partially occluded motor**. There is one **partially occluded rider**. There is one **partially occluded traffic sign**. There are **5 traffic signs**. There are **2 truncated cars**.
 
-   ```
+   
 
 ### Output CSV Format
 ```csv
