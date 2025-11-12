@@ -21,14 +21,13 @@ View complete training metrics on [Weights & Biases](https://wandb.ai):
 - **Validation Loss**: Consistent improvement per epoch
 - **Learning Rate**: Adaptive scheduling with warmup
 
-
 ---
 
-## 🎬 Demo Examples
+## Demo Examples
 
 ### Example 1: Evening Highway Scene
 **Input Image**: 
-https://github.com/MargiPandya27/Blip2_Finetuning_Scene_Captioning/blob/main/logs/demo1.png
+![Rainy City Street](https://github.com/MargiPandya27/Blip2_Finetuning_Scene_Captioning/blob/main/logs/demo1.png)
 
 **Generated Caption**:
 ```
@@ -38,7 +37,7 @@ The traffic light is red. There is one car. There are 2 pedestrians.
 
 ### Example 2: Rainy City Street
 **Input Image**: 
-https://github.com/MargiPandya27/Blip2_Finetuning_Scene_Captioning/blob/main/logs/demo2.png
+![Rainy City Street](https://github.com/MargiPandya27/Blip2_Finetuning_Scene_Captioning/blob/main/logs/demo2.png)
 
 **Generated Caption**:
 ```
@@ -49,7 +48,7 @@ The traffic light is yellow.
 
 ---
 
-## 🚀 How to Train
+## Training
 
 ### 1. Install Dependencies
 ```bash
@@ -76,7 +75,7 @@ This automatically:
 
 ---
 
-## 🧪 How to Evaluate
+## Evaluation
 
 ### Run Evaluation
 ```bash
