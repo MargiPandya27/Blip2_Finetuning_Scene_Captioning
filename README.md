@@ -16,28 +16,19 @@ The pipeline uses **QLoRA (4-bit quantization + LoRA)** for memory-efficient fin
 ### Training Logs
 View complete training metrics on [Weights & Biases](https://wandb.ai):
 
-![Training Dashboard](https://i.imgur.com/placeholder_training.png)
+![Training Dashboard]((https://github.com/MargiPandya27/Blip2_Finetuning_Scene_Captioning/blob/main/logs/eval_train_logs.png))
 - **Training Loss**: Converges smoothly across 5 epochs
 - **Validation Loss**: Consistent improvement per epoch
 - **Learning Rate**: Adaptive scheduling with warmup
 
-### Evaluation Results
-![Evaluation Dashboard](https://i.imgur.com/placeholder_eval.png)
-
-**BLEU Scores** (on test set):
-```
-BLEU-1: 0.6532  (Unigram precision)
-BLEU-2: 0.5234  (Bigram precision)
-BLEU-3: 0.4012  (Trigram precision)
-BLEU-4: 0.2876  (4-gram precision)
-```
 
 ---
 
 ## 🎬 Demo Examples
 
 ### Example 1: Evening Highway Scene
-**Input Image**: Highway at evening with traffic light
+**Input Image**: 
+https://github.com/MargiPandya27/Blip2_Finetuning_Scene_Captioning/blob/main/logs/demo1.png
 
 **Generated Caption**:
 ```
@@ -46,7 +37,8 @@ The traffic light is red. There is one car. There are 2 pedestrians.
 ```
 
 ### Example 2: Rainy City Street
-**Input Image**: City street in rainy conditions
+**Input Image**: 
+https://github.com/MargiPandya27/Blip2_Finetuning_Scene_Captioning/blob/main/logs/demo2.png
 
 **Generated Caption**:
 ```
