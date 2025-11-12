@@ -16,7 +16,7 @@ The pipeline uses **QLoRA (4-bit quantization + LoRA)** for memory-efficient fin
 ### Training Logs
 View complete training metrics on [Weights & Biases](https://wandb.ai):
 
-![Training Dashboard]((https://github.com/MargiPandya27/Blip2_Finetuning_Scene_Captioning/blob/main/logs/eval_train_logs.png))
+![Training Dashboard](https://github.com/MargiPandya27/Blip2_Finetuning_Scene_Captioning/blob/main/logs/eval_train_logs.png)
 - **Training Loss**: Converges smoothly across 5 epochs
 - **Validation Loss**: Consistent improvement per epoch
 - **Learning Rate**: Adaptive scheduling with warmup
