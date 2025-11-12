@@ -25,25 +25,22 @@ View complete training metrics on [Weights & Biases](https://wandb.ai):
 
 ## Demo Examples
 
-### Example 1: Evening Highway Scene
+### Example 1: 
 **Input Image**: 
 ![Rainy City Street](https://github.com/MargiPandya27/Blip2_Finetuning_Scene_Captioning/blob/main/logs/demo1.png)
 
 **Generated Caption**:
 ```
-It is a evening scene in clear weather on a highway road. 
-The traffic light is red. There is one car. There are 2 pedestrians.
+It is a **daytime** scene in **clear** weather on a **city street** road. Key visible objects are: There are **3 cars**. There is one **drivable area**. There are **3 lanes**. There are **4 partially occluded cars**. There is one **partially occluded traffic sign**. There is one **partially occluded car**. There is one **partially occluded traffic sign**. 
 ```
 
-### Example 2: Rainy City Street
+### Example 2: 
 **Input Image**: 
 ![Rainy City Street](https://github.com/MargiPandya27/Blip2_Finetuning_Scene_Captioning/blob/main/logs/demo2.png)
 
 **Generated Caption**:
 ```
-It is a night scene in rainy weather on a city street road. 
-There are 3 cars. There is one truncated pedestrian. 
-The traffic light is yellow.
+It is a **night** scene in **clear** weather on a **city street** road. Key visible objects are: There are **2 cars**. There is one **drivable area**. There are **2 lanes**. There are **2 partially occluded cars**. There is one **partially occluded traffic sign**. There is one **partially occluded traffic sign**. There is one **partially occluded traffic sign**. 
 ```
 
 ---
