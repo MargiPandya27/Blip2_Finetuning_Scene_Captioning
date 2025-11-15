@@ -3,7 +3,7 @@ from bdd100k_data_pipeline import process_bdd_labels
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from dataloader import ImageCaptioningDataset, collate_fn
-from train import training_args
+from train_args import training_args
 from transformers import TrainingArguments, Trainer
 from transformers import AutoProcessor, AutoModelForVision2Seq, BitsAndBytesConfig
 import torch
